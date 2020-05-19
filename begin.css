@@ -1,0 +1,121 @@
+/* General */
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+main {
+  background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  max-width: 1440px;
+  margin: auto;
+  min-height: 716px;
+}
+
+/* Navigation Bar */
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-container {
+  margin: auto;
+  position: absolute;
+  height: 36px;
+  top: 70px;
+  display: flex;
+  width: 980px;
+  border-radius: 5px;
+  background: linear-gradient(
+    180deg,
+    rgba(138, 138, 138, 1) 0%,
+   
+    rgba(115, 115, 115, 1) 49%,
+    rgba(95, 95, 95, 1) 50%,
+    rgba(111, 111, 111, 1) 100%
+  );
+  box-shadow:  inset 0px 0px 9px 4px rgba(95,95,95, 0.72);
+  
+;}
+
+.nav-container * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 11%;
+  height: 36px;
+  flex: 1;
+  border-right: 1px solid rgba(95, 95, 95);
+  text-shadow: 1px 0px 4px rgba(0, 0, 0, 0.77);
+  font-size: 12px;
+
+}
+.nav-container a:first-child {
+flex: none;
+text-align: center;
+padding-top: 8px;
+font-size: 20px;
+}
+
+.nav-container div {
+  border-right: none;
+
+}
+
+.nav-container div input {
+  border-radius: 10px;
+  height: 70%;
+  flex: none;
+  width: 90%;
+  background: rgba(95, 95, 95, 0.1);
+  background-image: url(assets/search-solid.svg);
+  background-repeat: no-repeat;
+  background-position: 5% 50%;
+  background-size: 12px 12px;
+  opacity: 0.4;
+}
+
+.nav-container div input:hover {
+  background: white;
+  opacity: 0.9  ;
+  color: black;
+  text-shadow: none;
+}
+
+.nav-container a:hover {
+  box-shadow: inset 0px 0px 9px 13px rgba(55,55,55,0.71);
+  border-radius: 5px;
+
+}
+
+/* Links Container  */
+
+section {
+  display: flex;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15% 17%;
+}
+
+.sub-watch {
+  font-size: 22px;
+margin-top: 20px;
+  color: white;
+  font-weight: 100;
+} */
