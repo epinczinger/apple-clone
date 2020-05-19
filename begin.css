@@ -58,6 +58,11 @@ nav {
   text-shadow: 1px 0 4px rgba(0, 0, 0, 0.77);
   font-size: 12px;
 }
+
+.footer a {
+  color: #08c;
+}
+
 .nav-container a:first-child {
   flex: none;
   text-align: center;
@@ -87,10 +92,6 @@ nav {
   opacity: 0.9;
   color: black;
   text-shadow: none;
-}
-
-.footer a {
-  color: #08c;
 }
 
 .nav-container a:hover {
