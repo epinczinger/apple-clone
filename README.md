@@ -1,4 +1,4 @@
-# Project Name
+# Apple Clone
 
 The aim of this project is to copy [this](https://web.archive.org/web/20140301004610/http://www.apple.com/) site.
 
