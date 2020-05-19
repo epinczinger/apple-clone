@@ -1,10 +1,10 @@
 # Project Name
 
-> One paragraph statement about the project.
+The aim of this project is to copy [this](https://web.archive.org/web/20140301004610/http://www.apple.com/) site.
 
-![screenshot](./app_screenshot.png)
+![screenshot](https://github.com/epinczinger/apple-clone/blob/main_page/assets/screenshot.jpeg)
 
-Additional description about the project and its features.
+I've used positioning, flex, background-images and some gradients, shadows, and else.
 
 ## Built With
 
