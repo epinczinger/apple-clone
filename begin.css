@@ -9,15 +9,15 @@
 }
 
 body {
-  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+    sans-serif;
 }
 
 main {
   background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
-  max-width: 1440px;
+  max-width: 1456px;
   margin: auto;
   min-height: 716px;
 }
@@ -40,14 +40,12 @@ nav {
   background: linear-gradient(
     180deg,
     rgba(138, 138, 138, 1) 0%,
-   
     rgba(115, 115, 115, 1) 49%,
     rgba(95, 95, 95, 1) 50%,
     rgba(111, 111, 111, 1) 100%
   );
-  box-shadow:  inset 0px 0px 9px 4px rgba(95,95,95, 0.72);
-  
-;}
+  box-shadow: inset 0px 0px 9px 4px rgba(95, 95, 95, 0.72);
+}
 
 .nav-container * {
   display: flex;
@@ -60,18 +58,16 @@ nav {
   border-right: 1px solid rgba(95, 95, 95);
   text-shadow: 1px 0px 4px rgba(0, 0, 0, 0.77);
   font-size: 12px;
-
 }
 .nav-container a:first-child {
-flex: none;
-text-align: center;
-padding-top: 8px;
-font-size: 20px;
+  flex: none;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 20px;
 }
 
 .nav-container div {
   border-right: none;
-
 }
 
 .nav-container div input {
@@ -89,20 +85,19 @@ font-size: 20px;
 
 .nav-container div input:hover {
   background: white;
-  opacity: 0.9  ;
+  opacity: 0.9;
   color: black;
   text-shadow: none;
 }
 
 .nav-container a:hover {
-  box-shadow: inset 0px 0px 9px 13px rgba(55,55,55,0.71);
+  box-shadow: inset 0px 0px 20px 13px rgba(45, 45, 55, 0.71);
   border-radius: 5px;
-
 }
 
 /* Links Container  */
 
-section {
+.main-body {
   display: flex;
 }
 
@@ -115,7 +110,61 @@ section {
 
 .sub-watch {
   font-size: 22px;
-margin-top: 20px;
+  margin-top: 20px;
   color: white;
   font-weight: 100;
-} */
+}
+
+/* Images Bottom */
+
+.bottom-imgs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.img-bottom {
+  max-width: 24.5%;
+}
+
+/* Footer */
+
+.footer {
+  max-width: 1456px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  font-size: 10px;
+}
+
+.footer div {
+  color: #6e6e6e;
+}
+
+.footer a {
+  color: #08c;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-list *:not(:last-child) {
+  border-right: 1px solid lightgray;
+  padding: 0 5px;
+}
+
+.footer-list {
+  display: flex;
+  align-items: center;
+}
+
+.flag {
+  width: 16px;
+  margin: auto 5px;
+  
+}
+
+.left-side div {
+  padding: 10px;
+}
