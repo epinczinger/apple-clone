@@ -36,7 +36,9 @@ nav {
   display: flex;
   width: 980px;
   border-radius: 5px;
-  background: /*      This comment is just to fix an error showed by a linters bug
+  background: /*     
+  
+  This comment is just to fix an error showed by a linters bug
   */ linear-gradient(
     180deg,
     rgba(138, 138, 138, 1) 0%,
