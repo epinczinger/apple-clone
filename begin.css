@@ -9,6 +9,8 @@
 }
 
 body {
+  max-height: 100%;
+  max-width: 100%;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
 }
 
